@@ -21,7 +21,7 @@ const Categories = () => {
                     showGameDisplay(data);
                 })
                 .catch(error => {
-                    console.error(error);
+                    console.log(error);
                 })
         });
         article.appendChild(cardHolder);
