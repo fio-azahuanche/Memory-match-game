@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@400;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body{
     margin: 0px;
@@ -11,7 +10,7 @@ body{
     align-items: center;
     display: flex;
     justify-content: center;
-    font-family:'Fredoka One', cursive;
+    font-family: 'Righteous', cursive;
     /* overflow: hidden; */
 
     /* Prevenir que seleccione texto */
@@ -74,9 +73,9 @@ body{
 
 .question{
     flex: 1;
-    color:#FFCD1C;
+    color: #D67F7F;
     text-align: center;
-    font-family: 'Roboto';
+    font-family: 'Righteous';
     font-weight: 900;
     font-size: 1.5rem;
     height:30%;
@@ -163,7 +162,7 @@ body{
     flex: 1;
     color: #FF8F8F;
     margin: 30px 0px -50px 40px;
-    font-family: 'Roboto';
+    font-family: 'Righteous';
     font-weight: 800;
     font-size: 1rem;
     text-align: left;
@@ -174,7 +173,7 @@ body{
     float:right;
     color: #FF8F8F;
     margin: 30px 40px -50px auto;
-    font-family:'Roboto';
+    font-family:'Righteous';
     font-weight:800;
     font-size: 1rem;
     text-align: right;
@@ -302,7 +301,7 @@ body{
     border-radius:15px;
     margin:10px 0px 10px 0px;
     padding: 5px 10px 5px 10px;
-    font-family: 'Roboto';
+    font-family: 'Righteous';
     font-size: 0.7rem;
 }
 
