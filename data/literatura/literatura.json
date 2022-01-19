@@ -1,0 +1,55 @@
+{
+  "name": "Literatura",
+  "items": [
+    {
+      "id": "calcipher",
+      "image": "data/ciencia/images/",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "calcipher2",
+      "image": "data/ciencia/images/",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "castle",
+      "image": "data/ciencia/images/",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "dog",
+      "image": "data/ciencia/images/",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "ciencia",
+      "image": "data/ciencia/images/",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "markl",
+      "image": "data/ciencia/images/",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "sophie",
+      "image": "data/ciencia/images/",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "thewitch",
+      "image": "data/ciencia/images/",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "turniphead",
+      "image": "data/ciencia/images/",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "cienciaandsophie",
+      "image": "data/ciencia/images/",
+      "bgColor": "#ffffff"
+    }
+  ]
+}
