@@ -1,0 +1,55 @@
+{
+  "name": "Ciencia",
+  "items": [
+    {
+      "id": "calcipher",
+      "image": "data/ciencia/images/calcipher.png",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "calcipher2",
+      "image": "data/ciencia/images/calcipher2.png",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "castle",
+      "image": "data/ciencia/images/castle.png",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "dog",
+      "image": "data/ciencia/images/dog.png",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "ciencia",
+      "image": "data/ciencia/images/ciencia.png",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "markl",
+      "image": "data/ciencia/images/markl.png",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "sophie",
+      "image": "data/ciencia/images/sophie.png",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "thewitch",
+      "image": "data/ciencia/images/thewitch.png",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "turniphead",
+      "image": "data/ciencia/images/turniphead.png",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "cienciaandsophie",
+      "image": "data/ciencia/images/cienciaandsophie.png",
+      "bgColor": "#ffffff"
+    }
+  ]
+}

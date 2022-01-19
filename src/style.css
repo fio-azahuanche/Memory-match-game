@@ -1,1 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@400;900&display=swap');
 
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family:'Fredoka One', cursive;
+    /* overflow: hidden; */
+
+    /* Prevenir que seleccione texto */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Versiones viejas de Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.header{
+    background-image: url(./images/title.png);
+    width: 486px;
+    height: 150px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.introBox{
+    width: 486px;
+    height: 674px;
+    display: flex;
+    align-items: center;
+    transition: transform .2s;
+}
+
+.introBox:hover{
+    transform: scale(1.05);
+}
+
+.castleOne{
+    display: flex;
+    position: relative;
+    animation: float 5s infinite;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    transition: width 0.5s, heigth 0.5s;
+}
+
+@keyframes float {
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(-20px);}
+    100% {transform: translateY(0px);}
+}
+
+.categoryBox{
+    display: flex;
+    width: 486px;
+    height: 674px;
+}
+
+.catGrid{
+    display: grid;
+    width: 100%;
+    height: 550px;
+    margin: 20px;
+}
+
+.question{
+    flex: 1;
+    color:#FFCD1C;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 1.5rem;
+    height:30%;
+    padding:50px 0px 0px 0px;
+    text-shadow:1px 1px black;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 1.5em;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+}
+
+.cardHolder {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid #578190;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cardSet {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+.cardHolder:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.textCard {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.gameBox{
+    width: 486px;
+    height: 674px;
+}
+
+.grid{
+    display: grid;
+    width: 100%;
+    height: 700px;
+    border-radius: 22px;
+    padding: 0px 0px 15px 0px;
+}
+
+.extras{
+    display: flex;
+}
+
+.failedAttempts{
+    flex: 1;
+    color: #FF8F8F;
+    margin: 30px 0px -50px 40px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.timerDisplay{
+    flex: 1;
+    float:right;
+    color: #FF8F8F;
+    margin: 30px 40px -50px auto;
+    font-family:'Roboto';
+    font-weight:800;
+    font-size: 1rem;
+    text-align: right;
+}
+
+.boardCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 1em;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+}
+
+.card{
+    width: 120px;
+    height: 140px;
+    border: 1px solid #578190;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.5s cubic-bezier(0.0, -0.55, 0.265, 1.55);
+    transform-style: preserve-3d;
+}
+
+.card.is-flipped{
+    transform: rotateY(180deg);
+}
+
+.card.is-matched{
+    animation: shake 0.3s;
+    animation-timing-function: cubic-bezier(0.0, -0.55, 0.265, 1.55);
+}
+
+@keyframes shake {
+    0% {transform: rotateZ(0deg) rotateY(180deg) scale(1)}
+    25% {transform: rotateZ(5deg) rotateY(180deg) scale(1.1);}
+    50% {transform: rotateZ(-5deg) rotateY(180deg) scale(1.1);}
+    100% {transform: rotateZ(0deg) rotateY(180deg) scale(1);}
+}
+
+.backCard {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F4C9B1;
+  border-radius: 10px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  width: 120px;
+  height: 140px;
+}
+
+.frontCard{
+    width: 120px;
+    height: 142px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F1F3DE;
+    border-radius: 10px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.scoreDisplay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 10;
+}
+
+.results{
+    width: 330px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -170px;
+    color:blanchedalmond;
+    background-color: #00A5C3;
+    border-radius: 10px;
+    text-align: center;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    z-index: 11;
+}
+
+.scoreText{
+    padding-top: 45px;
+    text-shadow:1px 1px black;
+}
+
+.wonImg{
+    position: absolute;
+    width: 20%;
+    height: auto;
+    right: 20px;
+    bottom: 20px;
+}
+
+.lostImg{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    right: 15px;
+    bottom: 10px;
+}
+
+.btn{
+    background-color:#FFCD1C;
+    color:#493936;
+    border: 2px solid blanchedalmond;
+    border-radius:15px;
+    margin:10px 0px 10px 0px;
+    padding: 5px 10px 5px 10px;
+    font-family: 'Roboto';
+    font-size: 0.7rem;
+}
+
+.btn:hover{
+    background:#00A5C3;
+    color:blanchedalmond;
+    cursor:pointer;
+}
