@@ -22,14 +22,14 @@ body{
     user-select: none;
 }
 
-.header{
+/* .header{
     background-image: url(./images/title.png);
     width: 486px;
     height: 150px;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-}
+} */
 
 .introBox{
     width: 486px;
