@@ -6,7 +6,7 @@ let shouldTimerStop = false;
 //comienza el timer
 const startTimer = (functionTick, functionTimeUp) => {
     shouldTimerStop = false;
-    counter = 50;
+    counter = 59;
     tickFunction = functionTick;
     timeUpFunction = functionTimeUp;
     setTimeout(runTimer, 1000);

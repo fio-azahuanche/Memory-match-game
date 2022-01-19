@@ -26,7 +26,7 @@ const GameDisplay = (data) => {
 
   const timerDisplay = document.createElement('div');
   timerDisplay.className = 'timerDisplay';
-  timerDisplay.innerHTML = 'TIEMPO <span style="color:#FFCD1C;">' + '00:50' + '</span>';
+  timerDisplay.innerHTML = 'TIEMPO <span style="color:#FFCD1C;">' + '00:59' + '</span>';
   extras.appendChild(timerDisplay);
 
   const boardCards = document.createElement('div');
