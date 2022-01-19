@@ -62,10 +62,10 @@ const Categories = () => {
     grid.appendChild(article);
 
 
-    const setCiencia = createSet('images/boxCiencia.png', '../data/ciencia/ciencia.json', 'Ciencia');
-    const setArte = createSet('images/boxArte.png', '../data/arte/arte.json', 'Arte');
-    const setLiteratura = createSet('images/boxLiteratura.png', '../data/literatura/literatura.json', 'Literatura');
-    const setPolitica = createSet('images/boxPolitica.png', '../data/politica/politica.json', 'Politica');
+    const setCiencia = createSet('images/boxCiencia.png', './data/ciencia/ciencia.json', 'Ciencia');
+    const setArte = createSet('images/boxArte.png', './data/arte/arte.json', 'Arte');
+    const setLiteratura = createSet('images/boxLiteratura.png', './data/literatura/literatura.json', 'Literatura');
+    const setPolitica = createSet('images/boxPolitica.png', './data/politica/politica.json', 'Politica');
 
     article.appendChild(setCiencia);
     article.appendChild(setArte);
