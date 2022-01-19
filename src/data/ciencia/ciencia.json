@@ -38,17 +38,17 @@
     },
     {
       "id": "mary",
-      "image": "data/ciencias/images/figure8.png",
+      "image": "data/ciencia/images/figure8.png",
       "bgColor": "#ffffff"
     },
     {
       "id": "hedy",
-      "image": "data/ciencias/images/figure9.png",
+      "image": "data/ciencia/images/figure9.png",
       "bgColor": "#ffffff"
     },
     {
       "id": "katherine",
-      "image": "data/ciencias/images/figure10.png",
+      "image": "data/ciencia/images/figure10.png",
       "bgColor": "#ffffff"
     }
   ]
