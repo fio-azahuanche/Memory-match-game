@@ -22,7 +22,7 @@ body{
 }
 
 /* .header{
-    background-image: url(./images/title.png);
+    background-image: url(./images/logo2.png);
     width: 486px;
     height: 150px;
     background-repeat: no-repeat;
@@ -42,7 +42,7 @@ body{
     transform: scale(1.05);
 }
 
-.castleOne{
+.logoOne{
     display: flex;
     position: relative;
     animation: float 5s infinite;
@@ -284,18 +284,20 @@ body{
     height: auto;
     right: 20px;
     bottom: 20px;
+    border-radius: 50px;
 }
 
-.lostImg{
-    position: absolute;
-    width: 90%;
-    height: auto;
-    right: 15px;
-    bottom: 10px;
+.lostImg {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  right: 15px;
+  bottom: 10px;
+  border-radius: 50px;
 }
 
 .btn{
-    background-color:#FFCD1C;
+    background-color:#FF8F8F;
     color:#493936;
     border: 2px solid blanchedalmond;
     border-radius:15px;

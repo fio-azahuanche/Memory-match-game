@@ -2,53 +2,53 @@
   "name": "Literatura",
   "items": [
     {
-      "id": "calcipher",
-      "image": "data/ciencia/images/",
+      "id": "lucy",
+      "image": "./data/literatura/images/figure1.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "calcipher2",
-      "image": "data/ciencia/images/",
+      "id": "louisa",
+      "image": "./data/literatura/images/figure2.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "castle",
-      "image": "data/ciencia/images/",
+      "id": "olympe",
+      "image": "./data/literatura/images/figure3.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "dog",
-      "image": "data/ciencia/images/",
+      "id": "simone",
+      "image": "./data/literatura/images/figure4.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "ciencia",
-      "image": "data/ciencia/images/",
+      "id": "virginia",
+      "image": "./data/literatura/images/figure5.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "markl",
-      "image": "data/ciencia/images/",
+      "id": "jane",
+      "image": "./data/literatura/images/figure6.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "sophie",
-      "image": "data/ciencia/images/",
+      "id": "gabriela",
+      "image": "./data/literatura/images/figure7.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "thewitch",
-      "image": "data/ciencia/images/",
+      "id": "isabel",
+      "image": "./data/literatura/images/figure8.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "turniphead",
-      "image": "data/ciencia/images/",
+      "id": "rosario",
+      "image": "./data/literatura/images/figure9.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "cienciaandsophie",
-      "image": "data/ciencia/images/",
+      "id": "toni",
+      "image": "./data/literatura/images/figure10.png",
       "bgColor": "#ffffff"
     }
   ]

@@ -41,7 +41,7 @@ const createElements = (classType, image, text) => {
 const displayScoreWon = (cardsWon, cardsShuffled, finalScore) => {
     if(cardsWon.length === cardsShuffled.length) {
       stopTimer();
-      const wonDisplay = createElements('wonImg', 'images/totorowin.gif', '<div class="scoreText"> ¡Ganaste! <br> Obtuviste: <span style=color:#FFCD1C;">' + finalScore + ' puntos</span></br></div>')
+      const wonDisplay = createElements('wonImg', 'images/pusheen-deal-with-it.gif', '<div class="scoreText"> ¡Ganaste! <br> Obtuviste: <span style=color:#FF8F8F;">' + finalScore + ' puntos</span></br></div>')
       document.getElementById('root').appendChild(wonDisplay);
     }
 };
@@ -50,7 +50,7 @@ const displayScoreWon = (cardsWon, cardsShuffled, finalScore) => {
 const displayScoreLost = (attempts, cardsChosen) => {
     if(attempts > 9){
       stopTimer();
-      const lostDisplay = createElements('lostImg', 'images/suwatarilose.gif', '<div class="scoreText"> Perdiste. <br> Inténtalo otra vez </br></div>')
+      const lostDisplay = createElements('lostImg', 'images/sad-dejected.gif', '<div class="scoreText"> Perdiste. <br> Inténtalo otra vez </br></div>')
       document.getElementById('root').appendChild(lostDisplay);
     }
 

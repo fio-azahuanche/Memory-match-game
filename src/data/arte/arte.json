@@ -2,53 +2,53 @@
   "name": "Arte",
   "items": [
     {
-      "id": "calcipher",
-      "image": "data/arte/images/",
+      "id": "elba",
+      "image": "./data/arte/images/figure1.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "calcipher2",
-      "image": "data/arte/images/",
+      "id": "victoria",
+      "image": "./data/arte/images/figure2.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "castle",
-      "image": "data/arte/images/",
+      "id": "cristina",
+      "image": "./data/arte/images/figure3.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "dog",
-      "image": "data/arte/images/",
+      "id": "izaskun",
+      "image": "./data/arte/images/figure4.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "arte",
-      "image": "data/arte/images/",
+      "id": "paulaRubio",
+      "image": "./data/arte/images/figure5.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "markl",
-      "image": "data/arte/images/",
+      "id": "beatrix",
+      "image": "./data/arte/images/figure6.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "sophie",
-      "image": "data/arte/images/",
+      "id": "georgia",
+      "image": "./data/arte/images/figure7.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "thewitch",
-      "image": "data/arte/images/",
+      "id": "frida",
+      "image": "./data/arte/images/figure8.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "turniphead",
-      "image": "data/arte/images/",
+      "id": "louise",
+      "image": "./data/arte/images/figure9.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "arteandsophie",
-      "image": "data/arte/images/",
+      "id": "leonora",
+      "image": "./data/arte/images/figure10.png",
       "bgColor": "#ffffff"
     }
   ]

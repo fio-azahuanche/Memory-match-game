@@ -1,54 +1,54 @@
 {
-  "name": "Ciencia",
+  "name": "Politica",
   "items": [
     {
-      "id": "calcipher",
-      "image": "data/ciencia/images/calcipher.png",
+      "id": "cleopatra",
+      "image": "./data/politica/images/figure1.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "calcipher2",
-      "image": "data/ciencia/images/calcipher2.png",
+      "id": "clara",
+      "image": "./data/politica/images/figure2.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "castle",
-      "image": "data/ciencia/images/castle.png",
+      "id": "eleanor",
+      "image": "./data/politica/images/figure3.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "dog",
-      "image": "data/ciencia/images/dog.png",
+      "id": "emma",
+      "image": "./data/politica/images/figure4.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "ciencia",
-      "image": "data/ciencia/images/ciencia.png",
+      "id": "eva",
+      "image": "./data/politica/images/figure5.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "markl",
-      "image": "data/ciencia/images/markl.png",
+      "id": "hellen",
+      "image": "./data/politica/images/figure6.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "sophie",
-      "image": "data/ciencia/images/sophie.png",
+      "id": "indira",
+      "image": "./data/politica/images/figure7.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "thewitch",
-      "image": "data/ciencia/images/thewitch.png",
+      "id": "malala",
+      "image": "./data/politica/images/figure8.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "turniphead",
-      "image": "data/ciencia/images/turniphead.png",
+      "id": "juana",
+      "image": "./data/politica/images/figure9.png",
       "bgColor": "#ffffff"
     },
     {
-      "id": "cienciaandsophie",
-      "image": "data/ciencia/images/cienciaandsophie.png",
+      "id": "rita",
+      "image": "./data/politica/images/figure10.png",
       "bgColor": "#ffffff"
     }
   ]
