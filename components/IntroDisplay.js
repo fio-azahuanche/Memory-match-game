@@ -12,15 +12,14 @@ const Intro = () => {
     introBox.className = 'introBox';
     content.appendChild(introBox); //introBox es hijo de content
 
-    const castle = document.createElement('img');
-    castle.className = 'castleOne';
-    // castle.src = '/images/logo&&jugar.png';
-    castle.src = './images/logo&&jugar.png';
-    castle.addEventListener('click', () => {
+    const logo = document.createElement('img');
+    logo.className = 'logoOne';
+    logo.src = './images/logo&&jugar.png';
+    logo.addEventListener('click', () => {
         introBox.style.display = 'none';
         document.getElementById('root').appendChild(Categories());
     });
-    introBox.appendChild(castle);   //castillo es hijo de introbox
+    introBox.appendChild(logo);   //castillo es hijo de introbox
 
     return content;
 };
