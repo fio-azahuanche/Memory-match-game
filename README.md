@@ -1,4 +1,4 @@
-# Mujeres Maravillosas: MemoCard Game 🎮
+# Mujeres Extraordinarias: MemoCard Game 🎮
 
 Mujeres Maravillosas es un juego de memoria web inspirado en todas esas mujeres destacadas en ciencia, literatura, arte y política. 
 
